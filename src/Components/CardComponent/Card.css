@@ -1,0 +1,103 @@
+
+.card-top{
+    margin-top: 0px;
+    margin-left: 0rem;
+}
+.card-mid{
+ margin-top: 1rem;
+ font-size: 17px;
+ font-weight: 500;
+}
+.button{
+    margin-top: 2.4rem;
+}
+.card-foot{
+    margin-top: 1rem;
+    font-weight: 300;
+}
+.btn{
+    margin: 4px;
+}
+.flag{
+    color: rgb(247, 62, 62);
+    font-size: 1.3rem;
+}
+.date{
+    margin: 3px;
+    font-size: small;
+    font-weight: 300;
+    flex-grow: 1;
+}
+.dot{
+    font-size: 1.7rem;
+    margin-left: .9rem;
+}
+.star{
+    color:rgb(247, 168, 30);
+    margin-left: 0rem;
+    font-size: 1.8rem;
+}
+.over{
+    margin-left:.5rem;
+}
+.dropdwon{
+    margin-left: 9rem;
+}
+.icons{ 
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.overFlag{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+.stadot{
+    margin-left: 10px;
+    margin: 5px;
+}
+.sicon{
+    margin: 8px;
+}
+
+.card-root{
+    border:1px solid #c1c1c1;
+    min-height:200px;
+    padding:20px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+.stadot{
+    margin-top: -9px;
+}
+.title{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.add-btn{
+    display: flex;
+    align-items: flex-end;
+}
+.dropdown-container:focus .dropdown {
+    opacity: 1;
+    z-index: 100;
+    max-height: 120vh;
+    transition: opacity 0.2s, z-index 0.2s, max-height 0.2s;
+  }
+  .three-dots:after {
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    content: '\2807';
+    font-size: 18px;
+    padding: 0 5px;
+  }
+  .dropdown{
+    margin-top:35px;
+    position:absolute;
+    right:25px;
+    outline: none;
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.1s, z-index 0.1s, max-height 5s;
+  }
